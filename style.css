@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background: rgb(2,0,36);
+   
+}
+ 
+.gradient-background {
+    background: linear-gradient(60deg, rgba(2,0,36,1) 0%, rgba(16,73,195,1) 40%, rgba(0,212,255,1) 100%);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+ 
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+ 
+.container {
+    /* background: rgba(2,0,36,50%);    
+    border: 1px solid rgba(2,0,36,1); */
+    padding: 50px;
+    margin: 10vh auto;
+    height: 90vh;
+    max-width: 1024px;
+}
+ 
+ 
+.container#hero {
+    color: rgb(255,255,255);
+    font-family: "Cairo", sans-serif;
+    font-weight: 100;
+    font-optical-sizing: auto;
+}
+
+.container#hero p {
+    text-align: justify;
+}
+ 
+h1 {
+    margin: 0;
+}
